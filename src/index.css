@@ -1,0 +1,59 @@
+/* App.css */
+
+.app {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.chip {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.chip span {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.item-list {
+  list-style: none;
+  padding: 0;
+  margin-right: 0;
+  margin-left: 200px;
+}
+
+.item-list li {
+  cursor: pointer;
+  padding: 8px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.item-list li:hover {
+  background-color: #ddd;
+}
